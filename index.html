@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K Pranav Kumar's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(90deg, #0066cc, #33cc33);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 10px;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #444;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #0066cc;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+        .skills, .projects, .experience, .education, .contact {
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style: none;
+        }
+        ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #33cc33;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #33cc33;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            nav a {
+                padding: 10px;
+            }
+            section {
+                padding: 20px 10px;
+            }
+            .contact-form {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>K Pranav Kumar</h1>
+        <p>Email: pranav6020@gmail.com | 
+            <a href="http://linkedin.com/in/k-pranav-kumar-90b6b4221" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/6020pranav" target="_blank">GitHub</a>
+        </p>
+    </header>
+
+    <nav>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <h3>Programming Languages:</h3>
+        <ul>
+            <li>Python (Advanced)</li>
+            <li>Java (Advanced)</li>
+            <li>C (Intermediate)</li>
+            <li>JavaScript (Novice)</li>
+        </ul>
+        <h3>Technologies:</h3>
+        <ul>
+            <li>HTML</li>
+            <li>Grafana</li>
+            <li>Power BI</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>Pandas, NumPy</li>
+            <li>Talend</li>
+            <li>Google Cloud</li>
+            <li>AWS</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <h3>Car Logo Recognition System</h3>
+        <p>Developed a car logo recognition system achieving 91% accuracy using EfficientNet, ResNet, VGG19, and DenseNet models. <a href="https://github.com/6020pranav/car_logo_recognition/blob/main/car-logo-rec.ipynb" target="_blank">View Project</a></p>
+
+        <h3>Amazon Product Insights</h3>
+        <p>Conducted exploratory data analysis on over 1,000 Amazon product ratings and reviews to uncover insights into customer behavior. <a href="https://www.kaggle.com/pranav6020" target="_blank">View Project</a></p>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <h3>Reliance Jio Infocomm Ltd - Intern</h3>
+        <p>Aug 2023 - Oct 2023 | Hyderabad, India</p>
+        <ul>
+            <li>Researched 5G technology standards and trends.</li>
+            <li>Supported development and testing of 5G prototype applications.</li>
+            <li>Collaborated on integrating 5G into existing infrastructure.</li>
+        </ul>
+
+        <h3>Zabda Technologies Pvt Ltd - Intern</h3>
+        <p>Nov 2023 - Jan 2024 | Hyderabad, India</p>
+        <ul>
+            <li>Utilized AWS for data processing and machine learning workflows.</li>
+            <li>Implemented Talend software for data integration.</li>
+            <li>Developed AI/ML models using Python and SQL.</li>
+        </ul>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <h3>Vellore Institute of Technology - Chennai</h3>
+        <p>B. Tech, ECE | 2021-25 | CGPA: 7.6</p>
+
+        <h3>Urbane Jr College - Hyderabad</h3>
+        <p>Intermediate, MPC | 2019-21 | Percentage: 74%</p>
+
+        <h3>Delhi Public School - Nacharam</h3>
+        <p>CBSE | 2018-19 | Percentage: 82%</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form class="contact-form" action="https://formspree.io/f/mqknyzbd" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-icons">
+            <a href="http://linkedin.com/in/k-pranav-kumar-90b6b4221" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/6020pranav" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 K Pranav Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
